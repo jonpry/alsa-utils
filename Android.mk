@@ -19,7 +19,7 @@ LOCAL_CFLAGS := \
 LOCAL_C_INCLUDES:= \
 	$(LOCAL_PATH)/include \
 	$(LOCAL_PATH)/android \
-	external/alsa-lib/include
+	external/alsa-lib2/include
 
 LOCAL_SRC_FILES := \
 	aplay/aplay.c
@@ -49,7 +49,7 @@ LOCAL_CFLAGS := \
 LOCAL_C_INCLUDES:= \
 	$(LOCAL_PATH)/include \
 	$(LOCAL_PATH)/android \
-	external/alsa-lib/include
+	external/alsa-lib2/include
 
 LOCAL_SRC_FILES := \
 	alsactl/alsactl.c \
@@ -84,7 +84,7 @@ LOCAL_CFLAGS := \
 LOCAL_C_INCLUDES:= \
         $(LOCAL_PATH)/include \
         $(LOCAL_PATH)/android \
-        external/alsa-lib/include
+        external/alsa-lib2/include
 
 LOCAL_SRC_FILES := \
         alsaucm/usecase.c \
@@ -115,7 +115,7 @@ LOCAL_CFLAGS := \
 LOCAL_C_INCLUDES:= \
 	$(LOCAL_PATH)/include \
 	$(LOCAL_PATH)/android \
-	external/alsa-lib/include
+	external/alsa-lib2/include
 
 LOCAL_SRC_FILES := \
 	amixer/amixer.c
